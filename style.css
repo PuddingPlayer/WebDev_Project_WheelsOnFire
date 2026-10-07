@@ -1,0 +1,70 @@
+p {
+text-align: center;
+color: black;
+font-size: 150%;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-size: 400%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 800%;
+  background-color: rgb(211, 124, 52) ;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    background-color: rgba(238, 238, 16, 0.5);
+
+
+}
+
+.aboutHeading {
+    background-color: firebrick;
+}
+
+
+a{
+    color:  black;
+    font-size: 250%;
+    background-color: rgba(114, 61, 41, 0.404);
+}
+
+image {
+    size: 200%;
+
+}
+
+.carsHeading{
+    background-color: rgba(63, 33, 236, 0.747);
+}
+
+.picture{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+.picture2{
+    display: block;
+    margin: auto;
+    width: 100%;
+
+}
+
+
+
+#cars {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;   
+    font-size: 40px;
+    text-align: left;
+}
