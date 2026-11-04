@@ -60,11 +60,28 @@ image {
 
 }
 
-
-
 #cars {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;   
     font-size: 40px;
     text-align: left;
+}
+
+#CSSboxmodel {
+    font-size: 150%;
+    border-width: 5px;
+    border-color:orange;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.4)), url("https://thumbs.dreamstime.com/b/stylized-illustration-wheel-surrounded-vibrant-orange-yellow-flames-set-against-clean-white-background-cartoon-433647689.jpg");
+    background-position: center, no-repeat;
+}
+
+a[alt]{
+    background-color: cyan;
+
 }
