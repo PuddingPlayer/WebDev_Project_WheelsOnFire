@@ -14,7 +14,8 @@ h1 {
   color: black;
   text-align: center;
   font-size: 800%;
-  background-color: rgb(211, 124, 52) ;
+  background-color: rgb(211, 124, 52);
+  padding: 3px 10px;
 }
 
 h2 {
@@ -71,7 +72,7 @@ image {
 }
 
 body {
-    background-image: linear-gradient(rgba(255,255,255,0.4)), url("https://thumbs.dreamstime.com/b/stylized-illustration-wheel-surrounded-vibrant-orange-yellow-flames-set-against-clean-white-background-cartoon-433647689.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.67)), url("https://thumbs.dreamstime.com/b/stylized-illustration-wheel-surrounded-vibrant-orange-yellow-flames-set-against-clean-white-background-cartoon-433647689.jpg");
     background-position: center, no-repeat;
 }
 
@@ -89,9 +90,12 @@ a {
 
     color:  black;
     font-size: 400%;
-    background-color: rgba(223, 197, 51, 0.829);
+    background-color: rgba(37, 116, 182, 0.829);
     text-align: center;
-
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
 }
 
 .image-grid {
@@ -100,6 +104,21 @@ a {
   gap: 16px; /* Adds space between images */
 }
 
+main {
+    color: black;
+    font-size: 200%;
+    background-color: rgba(182, 107, 37, 0.829);
+    display: block;
+    padding: 3px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 600px;       /* Gives the paragraph a fixed width */
+    max-width: 90%;     /* Keeps it responsive on small mobile screens */
+    margin: 0 auto;     /* Centres the paragraph block horizontally */
+    text-align: center;
+    
 
+
+}
 
 
