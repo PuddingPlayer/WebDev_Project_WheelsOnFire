@@ -98,6 +98,15 @@ a {
     border-radius: 10px;
 }
 
+a:hover {
+background-color: rgb(211, 124, 52);
+transition: 0.5s;
+
+
+}
+
+
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
@@ -121,4 +130,40 @@ main {
 
 }
 
+body{
+    background-color: blue;
+}
 
+
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: green;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: yellow;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  body{
+    background-color: pink;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: red;
+  }
+}
+
+.resizer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
